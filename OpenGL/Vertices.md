@@ -38,6 +38,7 @@ glEnableVertexAttribArray(0 /*buffer's index*/);
 ## Vertex Array
 To avoid having to set the vertex attributes every time we swap vertex buffers we can use a vertex array to hold on to both the buffer and the attributes[^vertexarray]. When a vertex array is bound, any attribute calls will be stored in that array:
 ![vertex array](assets/vertex%20array.png)
+
 Creating, binding and using a vertex array works as follows:
 
 ```cpp
