@@ -15,7 +15,7 @@ glBufferData(GL_ARRAY_BUFFER, size, data, mode);
 
 ## Vertex Attributes
 Secondly, we need to tell OpenGL how to interpret the vertices[^vertexattribs]. The following attributes describe how the data is formatted (in this example):
-![[vertex attributes.png]]
+![vertex attributes](assets/vertex%20attributes.png)
 - the *position* is where the buffer is located in memory;
 - the *offset* is the point in the buffer from which we start to care about the data (which is often right at the start, so 0);
 - the *size* of each element/vertex, or the amount of sub-elements it has;
@@ -37,7 +37,7 @@ glEnableVertexAttribArray(0 /*buffer's index*/);
 
 ## Vertex Array
 To avoid having to set the vertex attributes every time we swap vertex buffers we can use a vertex array to hold on to both the buffer and the attributes[^vertexarray]. When a vertex array is bound, any attribute calls will be stored in that array:
-![[vertex array.png]]
+![vertex array](assets/vertex%20array.png)
 Creating, binding and using a vertex array works as follows:
 
 ```cpp
