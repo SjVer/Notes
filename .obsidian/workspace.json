@@ -14,7 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "OpenGL/Shaders.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2a72f73065952b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/Vertices.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,9 +160,9 @@
   },
   "active": "95c9cbfc11d4d890",
   "lastOpenFiles": [
-    "OpenGL/OpenGL.md",
     "OpenGL/Vertices.md",
     "OpenGL/Shaders.md",
+    "OpenGL/OpenGL.md",
     "OpenGL/assets/graphics pipeline.png",
     "2023-11-09.md",
     "OpenGL/assets/vertex array.png",
