@@ -55,7 +55,7 @@ void main()
 	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0); 
 }
 ```
-Note here that the location of `aPos` is specified and [used](Vertices.md#^3c5f6b) when sending that data to the shader.
+Note here that the location of `aPos` is specified and [[Vertices.md#Vertex Attributes|used]] when sending that data to the shader.
 
 Fragment shader:
 ```glsl
