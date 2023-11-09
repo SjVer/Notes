@@ -1,7 +1,6 @@
 Vertices are often just 3 (or more) floats packed in a vector. To be able to send those to the GPU a few things need to happen.
 
 ## Vertex Buffer
-
 First of all, the vertices need to be put into a vertex buffer. These buffers manage the memory and allow us to send vertices in big batches to the GPU[^vertexbuffer]:
 
 ```cpp
@@ -15,7 +14,6 @@ glBufferData(GL_ARRAY_BUFFER, size, data, mode);
 ```
 
 ## Vertex Attributes
-
 Secondly, we need to tell OpenGL how to interpret the vertices[^vertexattribs]. The following attributes describe how the data is formatted (in this example):
 ![[vertex attributes.png]]
 - the *position* is where the buffer is located in memory;
@@ -38,7 +36,6 @@ glEnableVertexAttribArray(0 /*buffer's index*/);
 ```
 
 ## Vertex Array
-
 To avoid having to set the vertex attributes every time we swap vertex buffers we can use a vertex array to hold on to both the buffer and the attributes[^vertexarray]. When a vertex array is bound, any attribute calls will be stored in that array:
 ![[vertex array.png]]
 Creating, binding and using a vertex array works as follows:

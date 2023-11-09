@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1537a83e051d2d8c",
+        "id": "4bb853b6f02890d2",
         "type": "tabs",
         "children": [
           {
-            "id": "c2c5217e4b2723de",
+            "id": "95c9cbfc11d4d890",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Shaders.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Shaders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Shaders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/Vertices.md"
+                "file": "OpenGL/Shaders.md"
               }
             }
           }
@@ -146,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b671d937cb9343e",
+  "active": "95c9cbfc11d4d890",
   "lastOpenFiles": [
-    "2023-11-09.md",
-    "OpenGL/Vertices.md",
-    "OpenGL/OpenGL.md",
-    "OpenGL/assets/vertex array.png",
     "OpenGL/Shaders.md",
-    "OpenGL/assets/vertex attributes.png",
+    "OpenGL/OpenGL.md",
+    "OpenGL/Vertices.md",
     "OpenGL/assets/graphics pipeline.png",
+    "2023-11-09.md",
+    "OpenGL/assets/vertex array.png",
+    "OpenGL/assets/vertex attributes.png",
     "OpenGL/assets",
     "OpenGL"
   ]
