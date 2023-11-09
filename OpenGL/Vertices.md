@@ -35,6 +35,24 @@ glVertexAttribPointer(
 glEnableVertexAttribArray(0 /*buffer's index*/);
 ```
 
+If the index/location is not specified it can be queried using `glGetAttribLocation`.
+
+When, for example, including the color of each vertex in the vertex data we have to specify how that data is formatted alongside the vertex positions:
+![vertex attributes 2](assets/vertex%20attributes%202.png)
+```glsl
+// shader
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aColor;
+```
+
+```cpp
+// aPos
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0); glEnableVertexAttribArray(0);
+
+// aColor
+glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3* sizeof(float))); 
+glEnableVertexAttribArray(1);
+```
 ## Vertex Array
 To avoid having to set the vertex attributes every time we swap vertex buffers we can use a vertex array to hold on to both the buffer and the attributes[^vertexarray]. When a vertex array is bound, any attribute calls will be stored in that array:
 ![vertex array](assets/vertex%20array.png)

@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4bb853b6f02890d2",
+        "id": "a2a0681f15b43955",
         "type": "tabs",
         "children": [
           {
-            "id": "95c9cbfc11d4d890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGL/Shaders.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0542fee9d5da5140",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGL/Vertices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2a72f73065952b6",
+            "id": "f1838a582d5beba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0542fee9d5da5140",
+  "active": "f1838a582d5beba3",
   "lastOpenFiles": [
-    "OpenGL/Shaders.md",
     "OpenGL/Vertices.md",
+    "OpenGL/Shaders.md",
+    "OpenGL/assets/vertex attributes 2.png",
+    "OpenGL/assets/vertex attributes 2.png.opdownload",
     "OpenGL/OpenGL.md",
     "OpenGL/assets/graphics pipeline.png",
     "2023-11-09.md",
