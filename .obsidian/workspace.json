@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/OpenGL.md",
-                "mode": "source",
+                "file": "OpenGL/Shaders.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/OpenGL.md",
+                "file": "OpenGL/Shaders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/OpenGL.md",
+                "file": "OpenGL/Shaders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/OpenGL.md"
+                "file": "OpenGL/Shaders.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "95c9cbfc11d4d890",
   "lastOpenFiles": [
-    "OpenGL/Vertices.md",
     "OpenGL/OpenGL.md",
+    "OpenGL/Vertices.md",
     "OpenGL/Shaders.md",
     "OpenGL/assets/graphics pipeline.png",
     "2023-11-09.md",
