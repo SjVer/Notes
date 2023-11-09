@@ -1,5 +1,5 @@
 Out of all the phases of the graphics pipeline, we can control the vertex, geometry, and fragment shaders:
-![[graphics pipeline.png]]
+![graphics pipeline](assets/graphics%20pipeline.png)
 
 The _vertex shader_ calculates where the vertices need to be (relevant for e.g. waves); The geometry shader_ modifies the geometry, adding extra vertices and whatever, and the _fragment shader_ calculates the final color of each pixel.
 

@@ -4,5 +4,7 @@
   "attachmentFolderPath": "./assets",
   "userIgnoreFilters": null,
   "defaultViewMode": "preview",
-  "readableLineLength": true
+  "readableLineLength": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
