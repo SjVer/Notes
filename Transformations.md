@@ -47,7 +47,7 @@ $$\begin{bmatrix} \cos \theta + {r_x}^2(1 - \cos \theta) & {r_x}{r_y}(1 - \cos \
 Even better would be to use quaternions, but that's a whole other topic.[^quat]
 
 ### Combination
-Combining transformations is as simple as multiplying them **in the correct order**. It is advised to first do scaling operations, then rotations and lastly translations. When using row vectors instead of column vectors this order is flipped.
+Combining transformations is as simple as multiplying them **in the correct order**. It is advised to first do scaling operations, then rotations and lastly translations. When using row vectors instead of column vectors this order is flipped. This final matrix is often called the _TRS_ (since row vectors are more common).
 
 [^wiki]: Wikipedia article on [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 [^khan]: Khan Academy on [matrix transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations)
