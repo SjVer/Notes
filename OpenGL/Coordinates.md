@@ -18,13 +18,12 @@ The view matrix basically applies the inverse of the [transformation](Transforma
 
 The project matrix depends on the kind of projection; orthographic or perspective. It maps the view volume (a weird pyramid in the case of perspective projection) to a unit cube (with all vertices at `1`s or `-1`s). After that it's really easy to clip stuff out.
 
-The perspective projection matrix is as follows, with $n$ as near, $f$ as far and $t$ as the top (along the $z$ axis, and assumed to be symmetrical along the $y$ axis).
+The perspective projection matrix is as follows, with $n$ as near, $f$ as far and $t$ as the top (along the $z$ axis, and assumed to be symmetrical along the $y$ axis).[^projmat]
 $$\begin{bmatrix} \frac n r & 0 & 0 & 0 \\ 0 & \frac n t & 0 & 0 \\ 0 & 0 & \frac{f+n}{f-n} & \frac{2fn}{f-n} \\ & 0 & -1 & 0 \end{bmatrix} \cdot \begin{pmatrix} x \\ y \\ z \\ w \end{pmatrix} = \begin{pmatrix} \frac n r x \\ \frac n t y \\ \frac{f+n}{f-n}z + \frac{2fn}{f-n}w \\ -z \end{pmatrix}$$
 The depth is conveniently stored as the new $w$ component. The negation there is because of the right-hand coordinate system.[^hand]
 
-As with [combining transformation matrices](../Transformations.md#Combination), the transformations between coordinate systems can be combined by multiplying them in the correct order.
-
-
+As with [combining transformation matrices](../Transformations.md#Combination), the transformations between coordinate systems can be combined by multiplying them in the correct order: projection; view; model (for column vectors). This final matrix is often called the _MVP_ as row vectors (row-major matrices) are more common. 
 
 [^systems]: Learn OpenGL chapter on [coordinate systems](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=About-,Coordinate%20Systems,-In%20the%20last)
+[^projmat]: Article on the [projection matrix](http://www.songho.ca/opengl/gl_projectionmatrix.html)
 [^hand]: Learn OpenGL on the [right-handed system](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=are%20moving%20backwards.-,Right%2Dhanded%20system,-By%20convention%2C%20OpenGL)
