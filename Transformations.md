@@ -42,9 +42,9 @@ $$\begin{bmatrix} {\cos \theta} & 0 & {\sin \theta} & 0 \\ 0 & 1 & 0 & 0 \\ - {\
 Around the Z-axis:
 $$\begin{bmatrix} {\cos \theta} & - {\sin \theta} & 0 & 0 \\ {\sin \theta} & {\cos \theta} & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \cdot \begin{pmatrix} x \\ y \\ z \\ 1 \end{pmatrix} = \begin{pmatrix} {\cos \theta} \cdot x - {\sin \theta} \cdot y  \\ {\sin \theta} \cdot x + {\cos \theta} \cdot y \\ z \\ 1 \end{pmatrix}$$
 Rotating around those axes one by one is possible, but not a good idea. 
-Instead, there is one big rotation matrix around the rotation axis $\vec{r}$:
+Instead, there is one big generalized rotation matrix around the rotation axis $\vec{r}$:
 $$\begin{bmatrix} \cos \theta + {r_x}^2(1 - \cos \theta) & {r_x}{r_y}(1 - \cos \theta) - {r_z} \sin \theta & {r_x}{r_z}(1 - \cos \theta) + {r_y} \sin \theta & 0 \\ {r_y}{r_x} (1 - \cos \theta) + {r_z} \sin \theta & \cos \theta + {r_y}^2(1 - \cos \theta) & {r_y}{r_z}(1 - \cos \theta) - {r_x} \sin \theta & 0 \\ {r_z}{r_x}(1 - \cos \theta) - {r_y} \sin \theta & {r_z}{r_y}(1 - \cos \theta) + {r_x} \sin \theta & \cos \theta + {r_z}^2(1 - \cos \theta) & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
-Even better would be to use quaternions, but that's a whole other topic.
+Even better would be to use quaternions, but that's a whole other topic.[^quat]
 
 **Combination:**
 Combining transformations is as simple as multiplying them **in the correct order**. It is advised to first do scaling operations, then rotations and lastly translations. When using row vectors instead of column vectors this order is flipped.
@@ -53,3 +53,4 @@ Combining transformations is as simple as multiplying them **in the correct orde
 [^khan]: Khan Academy on [matrix transformations](https://www.khanacademy.org/math/linear-algebra/matrix-transformations)
 [^rotations]: Learn OpenGL section on [rotation](https://learnopengl.com/Getting-started/Transformations#:~:text=our%20transformation%20toolkit.-,Rotation,-The%20last%20few)
 [^2d]: Video on [deriving a rotation matrix](https://www.youtube.com/watch?v=EZufiIwwqFA)
+[^quat]: Website on maths such as [quaternions](https://euclideanspace.com)
