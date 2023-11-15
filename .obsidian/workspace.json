@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transformations.md",
-                "mode": "preview",
+                "file": "OpenGL/Coordinates.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transformations.md",
+                "file": "OpenGL/Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transformations.md",
+                "file": "OpenGL/Coordinates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transformations.md"
+                "file": "OpenGL/Coordinates.md"
               }
             }
           }
@@ -151,6 +151,8 @@
     "Transformations.md",
     "OpenGL/Vertices.md",
     "OpenGL/Coordinates.md",
+    "OpenGL/Shaders.md",
+    "OpenGL/OpenGL.md",
     "OpenGL/assets/coordinate systems.png",
     "assets/Untitled",
     "assets/matrix multiplication.png",
@@ -158,8 +160,6 @@
     "matrix multiplication.png",
     "OpenGL/Maths.md",
     "OpenGL/assets/vertex attributes 2.png",
-    "OpenGL/OpenGL.md",
-    "OpenGL/Shaders.md",
     "OpenGL/assets/matrix multiplication.png",
     "OpenGL/assets/vertex attributes 2.png.opdownload",
     "OpenGL/assets/graphics pipeline.png",
