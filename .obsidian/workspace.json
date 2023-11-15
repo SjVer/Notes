@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "OpenGL/Coordinates.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -149,8 +149,8 @@
   "active": "2c077ddf173192bd",
   "lastOpenFiles": [
     "Transformations.md",
-    "OpenGL/Vertices.md",
     "OpenGL/Coordinates.md",
+    "OpenGL/Vertices.md",
     "OpenGL/Shaders.md",
     "OpenGL/OpenGL.md",
     "OpenGL/assets/coordinate systems.png",

@@ -46,7 +46,7 @@ Instead, there is one big generalized rotation matrix around the rotation axis $
 $$\begin{bmatrix} \cos \theta + {r_x}^2(1 - \cos \theta) & {r_x}{r_y}(1 - \cos \theta) - {r_z} \sin \theta & {r_x}{r_z}(1 - \cos \theta) + {r_y} \sin \theta & 0 \\ {r_y}{r_x} (1 - \cos \theta) + {r_z} \sin \theta & \cos \theta + {r_y}^2(1 - \cos \theta) & {r_y}{r_z}(1 - \cos \theta) - {r_x} \sin \theta & 0 \\ {r_z}{r_x}(1 - \cos \theta) - {r_y} \sin \theta & {r_z}{r_y}(1 - \cos \theta) + {r_x} \sin \theta & \cos \theta + {r_z}^2(1 - \cos \theta) & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 Even better would be to use quaternions, but that's a whole other topic.[^quat]
 
-**Combination:**
+### Combination
 Combining transformations is as simple as multiplying them **in the correct order**. It is advised to first do scaling operations, then rotations and lastly translations. When using row vectors instead of column vectors this order is flipped.
 
 [^wiki]: Wikipedia article on [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)

@@ -22,5 +22,9 @@ The perspective projection matrix is as follows, with $n$ as near, $f$ as far an
 $$\begin{bmatrix} \frac n r & 0 & 0 & 0 \\ 0 & \frac n t & 0 & 0 \\ 0 & 0 & \frac{f+n}{f-n} & \frac{2fn}{f-n} \\ & 0 & -1 & 0 \end{bmatrix} \cdot \begin{pmatrix} x \\ y \\ z \\ w \end{pmatrix} = \begin{pmatrix} \frac n r x \\ \frac n t y \\ \frac{f+n}{f-n}z + \frac{2fn}{f-n}w \\ -z \end{pmatrix}$$
 The depth is conveniently stored as the new $w$ component. The negation there is because of the right-hand coordinate system.[^hand]
 
+As with [combining transformation matrices](../Transformations.md#Combination), the transformations between coordinate systems can be combined by multiplying them in the correct order.
+
+
+
 [^systems]: Learn OpenGL chapter on [coordinate systems](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=About-,Coordinate%20Systems,-In%20the%20last)
 [^hand]: Learn OpenGL on the [right-handed system](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=are%20moving%20backwards.-,Right%2Dhanded%20system,-By%20convention%2C%20OpenGL)
