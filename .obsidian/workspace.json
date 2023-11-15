@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transformations.md",
+                "file": "OpenGL/Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transformations.md",
+                "file": "OpenGL/Coordinates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transformations.md"
+                "file": "OpenGL/Coordinates.md"
               }
             }
           }
@@ -159,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1af249dff1a9faa0",
+  "active": "2c077ddf173192bd",
   "lastOpenFiles": [
-    "OpenGL/Coordinates.md",
     "Transformations.md",
+    "OpenGL/Coordinates.md",
     "OpenGL/Vertices.md",
     "OpenGL/Shaders.md",
     "OpenGL/OpenGL.md",
