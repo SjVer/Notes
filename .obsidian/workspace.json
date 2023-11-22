@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Coordinates.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/Vertices.md",
+                "file": "OpenGL/Coordinates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/Vertices.md"
+                "file": "OpenGL/Coordinates.md"
               }
             }
           }
@@ -160,11 +160,11 @@
   },
   "active": "2c077ddf173192bd",
   "lastOpenFiles": [
-    "OpenGL/Shaders.md",
-    "OpenGL/Vertices.md",
-    "OpenGL/OpenGL.md",
-    "OpenGL/Coordinates.md",
     "Transformations.md",
+    "OpenGL/Coordinates.md",
+    "OpenGL/Vertices.md",
+    "OpenGL/Shaders.md",
+    "OpenGL/OpenGL.md",
     "OpenGL/assets/coordinate systems.png",
     "assets/Untitled",
     "assets/matrix multiplication.png",

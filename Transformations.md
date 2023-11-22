@@ -9,7 +9,7 @@ $$\begin{pmatrix} x_1 \\ y_1 \end{pmatrix} \cdot \begin{pmatrix} x_2 \\ y_2 \end
 **Cross product:**
 $$\begin{pmatrix} a_x \\ a_y \\ a_z \end{pmatrix} \times \begin{pmatrix} b_x \\ b_y \\ b_z \end{pmatrix} = \begin{pmatrix} a_y \cdot b_z - a_z \cdot b_y \\ a_z \cdot b_x - a_x \cdot b_z \\ a_x \cdot b_y - a_y \cdot b_x \end{pmatrix}$$
 
-**Matrix multiplication:**
+## Matrix multiplication
 For matrix multiplication, the number of columns in the first matrix must be equal to the number of rows in the second matrix. The resulting matrix has the number of rows of the first and the number of columns of the second matrix.[^wiki] Also note: $A \cdot B \neq B \cdot A$.
 Treating the rows of the first matrix and the columns of the second matrix as vectors, the resulting matrix is the **dot product** of the corresponding vectors:
 ![|300](assets/matrix%20multiplication.png)
