@@ -35,7 +35,7 @@ glVertexAttribPointer(
 glEnableVertexAttribArray(0 /*buffer's index*/);
 ```
 
-If the index/location is not specified it can be queried using `glGetAttribLocation`.
+**NOTE:** If the index/location is not specified it can be queried using `glGetAttribLocation`.
 
 When, for example, including the color of each vertex in the vertex data we have to specify how that data is formatted alongside the vertex positions:
 ![vertex attributes 2](assets/vertex%20attributes%202.png)
