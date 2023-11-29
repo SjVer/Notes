@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c077ddf173192bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenGL/Coordinates.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1af249dff1a9faa0",
             "type": "leaf",
             "state": {
@@ -30,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "476271cc20ce9ed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenGL/Basic Lighting.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b0d351e3cb3df2f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/Coordinates.md",
+                "file": "OpenGL/Basic Lighting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/Coordinates.md",
+                "file": "OpenGL/Basic Lighting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/Coordinates.md"
+                "file": "OpenGL/Basic Lighting.md"
               }
             }
           }
@@ -158,11 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c077ddf173192bd",
+  "active": "476271cc20ce9ed2",
   "lastOpenFiles": [
+    "scratchpadgames.net/forums",
+    "scratchpadgames.net",
+    "OpenGL/Basic Lighting.md",
     "Transformations.md",
-    "OpenGL/Coordinates.md",
     "OpenGL/Vertices.md",
+    "OpenGL/Coordinates.md",
     "OpenGL/Shaders.md",
     "OpenGL/OpenGL.md",
     "OpenGL/assets/coordinate systems.png",

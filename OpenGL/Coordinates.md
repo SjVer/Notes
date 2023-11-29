@@ -14,7 +14,7 @@ To go from local space all the way to the screen a few transformations need to b
 5. And lastly the viewport transform is applied to map the coordinates from `-1.0` and `1.0` to the coordinate range defined by `glViewport`. The rest is up to OpenGL.
 
 ## The matrices
-The view matrix basically applies the inverse of the [transformation](Transformations.md#Transformations) of the camera to every object. It is usually calculated using a "LookAt" matrix. This matrix takes into account the position, $\vec p$ and the right, up and direction vectors $\vec r$, $\vec u$ and $\vec d$:[^matmul]
+The view matrix basically applies the inverse of the [transformation](Transformations.md#Transformations) of the camera to every object. It is usually calculated using a "LookAt" matrix which is calculated using [matrix multiplication](Transformations.md#Matrix%20multiplication). This matrix takes into account the position, $\vec p$ and the right, up and direction vectors $\vec r$, $\vec u$ and $\vec d$:
 $$LookAt = \begin{bmatrix} r_x & r_y & r_z & 0 \\ u_x & u_y & u_z & 0 \\ d_x & d_y & d_z & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \cdot \begin{bmatrix} 1 & 0 & 0 & -p_x \\ 0 & 1 & 0 & -p_y \\ 0 & 0 & 1 & -p_z \\ 0 & 0 & 0 & 1 \end{bmatrix}$$
 Functions such as _glm_'s `glm::lookAt(vec3 pos, vec3 center, vec3 up)` calculate and apply this matrix themselves to calculate a view matrix.
 
@@ -27,6 +27,5 @@ The depth is conveniently stored as the new $w$ component. The negation there is
 As with [combining transformation matrices](../Transformations.md#Combination), the transformations between coordinate systems can be combined by multiplying them in the correct order: projection; view; model (for column vectors). This final matrix is often called the _MVP_ as row vectors (row-major matrices) are more common. 
 
 [^systems]: Learn OpenGL chapter on [coordinate systems](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=About-,Coordinate%20Systems,-In%20the%20last)
-[^matmul]: Notes on [matrix multiplication](Transformations.md#Matrix%20multiplication)
 [^projmat]: Article on the [projection matrix](http://www.songho.ca/opengl/gl_projectionmatrix.html)
 [^hand]: Learn OpenGL on the [right-handed system](https://learnopengl.com/Getting-started/Coordinate-Systems#:~:text=are%20moving%20backwards.-,Right%2Dhanded%20system,-By%20convention%2C%20OpenGL)
