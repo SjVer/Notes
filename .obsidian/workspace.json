@@ -20,23 +20,15 @@
             }
           },
           {
-            "id": "476271cc20ce9ed2",
+            "id": "cf8e9c1cc7281e98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL/Basic Lighting.md",
-                "mode": "preview",
+                "file": "Multithreading (on Linux).md",
+                "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "4b0d351e3cb3df2f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -106,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL/Basic Lighting.md",
+                "file": "Multithreading (on Linux).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL/Basic Lighting.md",
+                "file": "Multithreading (on Linux).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL/Basic Lighting.md"
+                "file": "Multithreading (on Linux).md"
               }
             }
           }
@@ -167,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "476271cc20ce9ed2",
+  "active": "cf8e9c1cc7281e98",
   "lastOpenFiles": [
+    "Transformations.md",
+    "Multithreading (on Linux).md",
+    "Untitled",
+    "OpenGL/Basic Lighting.md",
     "scratchpadgames.net/forums",
     "scratchpadgames.net",
-    "OpenGL/Basic Lighting.md",
-    "Transformations.md",
     "OpenGL/Vertices.md",
     "OpenGL/Coordinates.md",
     "OpenGL/Shaders.md",
