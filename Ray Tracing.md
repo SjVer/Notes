@@ -41,3 +41,5 @@ To get the normal we solve for and return the smallest $t$:
 }
 ```
 We can then just get the normal by subtracting the sphere's center from the point at that $t$, and taking the unit vector from that.
+
+For an in-depth tutorial see [The Cherno's video](https://www.youtube.com/watch?v=4NshnkzOdI0&t=1s).
