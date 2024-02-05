@@ -19,7 +19,8 @@ $$t \cdot t \cdot dot(B, B) + 2 \cdot t \cdot dot(A-C, A-C) + dot(C, C) - r^2 = 
 $$t \cdot t \cdot length(B) + 2 \cdot t \cdot length(A-C) + length(C) - r^2 = 0$$
 Since this is in the form of $ax^2 + bx + c = 0$ we have at least one hit if the discriminant ($b^2 - 4 \cdot a \cdot c$) is positive:
 $$length(B) \cdot t^2 + 2 \cdot length(A-C) \cdot t + length(C) - r^2 = 0$$
-$$(2 \cdot length(A-C))^2 - 4 \cdot length(B) \cdot (length(C) - r^2) > 0$$Putting this in code **and accounting for the offset from the origin** we get:
+$$(2 \cdot length(A-C))^2 - 4 \cdot length(B) \cdot (length(C) - r^2) > 0$$
+Putting this in code **and accounting for the offset from the origin** we get:
 ```cpp
 bool hit_sphere(vec3 C, float r, Ray ray) {
 	vec3 Crel = ray.origin - C;
@@ -36,6 +37,7 @@ To get the normal we solve for and return the smallest $t$:
 	float d = b*b - 4*a*c > 0;
 	if (d < 0) return -1.0f;
 	else return (-b - sqrt(d)) / (2 * a);
+	// you should account for `-b + ...`
 }
 ```
 We can then just get the normal by subtracting the sphere's center from the point at that $t$, and taking the unit vector from that.
