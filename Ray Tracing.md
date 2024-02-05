@@ -19,7 +19,7 @@ $$t \cdot t \cdot dot(B, B) + 2 \cdot t \cdot dot(A-C, A-C) + dot(C, C) - r^2 = 
 $$t \cdot t \cdot length(B) + 2 \cdot t \cdot length(A-C) + length(C) - r^2 = 0$$
 Since this is in the form of $ax^2 + bx + c = 0$ we have at least one hit if the discriminant ($b^2 - 4 \cdot a \cdot c$) is zero or positive:
 $$length(B) \cdot t^2 + 2 \cdot length(A-C) \cdot t + length(C) - r^2 = 0$$
-$$(2 \cdot length(A-C))^2 - 4 \cdot length(B) \cdot (length(C) - r^2) \geq 0$$
+$$D = (2 \cdot length(A-C))^2 - 4 \cdot length(B) \cdot (length(C) - r^2) \geq 0$$
 Putting this in code **and accounting for the offset from the origin** we get:
 ```cpp
 bool hit_sphere(vec3 C, float r, Ray ray) {
