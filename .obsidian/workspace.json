@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab72b4dd6176d178",
@@ -148,8 +149,9 @@
   },
   "active": "1af249dff1a9faa0",
   "lastOpenFiles": [
-    "Transformations.md",
+    "assets/reflected ray.png",
     "Ray Tracing.md",
+    "Transformations.md",
     "assets/ray tracing.png",
     "Bullet Physics.md",
     "OpenGL/Filtering.md",
@@ -174,7 +176,6 @@
     "OpenGL/assets/graphics pipeline.png",
     "2023-11-09.md",
     "OpenGL/assets/vertex array.png",
-    "OpenGL/assets/vertex attributes.png",
     "OpenGL/assets",
     "OpenGL"
   ]
