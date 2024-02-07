@@ -7,6 +7,7 @@ A ray tracer "shoots" out a ray from the camera through each pixel in the screen
 ![|500](assets/ray%20tracing.png)
 The direction of these rays is generally the UV coordinate of its pixel multiplied by the in-world dimensions of the window/image.
 
+**NOTE:** When a ray hits at $P(t)$ where $t \leq 0$ the hit is invalid.
 ## Spheres
 Recall the equation for a sphere:
 $$(x - a)^2 + (y - b)^2 + (z - c)^2 = r^2$$
@@ -46,19 +47,24 @@ Diffuse surfaces take on the color of the light that hits it, blended with its o
 
 Light reflected off a diffuse surface has its direction randomized. To get the direction of the new ray, take a random point inside a unit sphere whose radius is tangent to the hit point/surface:
 ![|300](assets/reflected%20ray.png)
+
+The bounced ray can be calculated as follows:
+```cpp
+// we start the new ray just above the surface
+bounced_ray.origin = hit_point + hit_normal * 0.0001;
+
+vec3 dir_offset = roughness * random_point_in_unit_sphere();
+bounced_ray.direction = reflect(hit_direction, hit_normal + dir_offset);
+```
+
 ## Reflective Materials
 Reflective materials are like diffuse materials, but mostly reflect light and contribute very little to the final color.
 
-A perfectly reflective surface can just send out another ray:
+A perfectly reflected ray is just the original ray reflected against the normal, but we can make the surface fuzzier by randomizing the reflected direction:
 ```cpp
-vec3 reflect(vec3 direction, vec3 normal) {
-	return direction - 2 * dot(direction, normal) * normal;
-}
-```
+// we start the new ray just above the surface
+bounced_ray.origin = hit_point + hit_normal * 0.0001;
 
-We can make the surface fuzzier by randomizing the reflected direction:
-```cpp
-vec3 fuzzyReflect(vec3 direction, vec3 normal, float fuzz) {
-	return reflect(direction, normal) + fuzz * random_point_in_unit_sphere();
-}
+vec3 reflected = reflect(hit_direction, hit_normal);
+bounced_ray.direction = reflected + fuzz * random_point_in_unit_sphere();
 ```
