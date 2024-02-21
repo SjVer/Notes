@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ray Tracing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ab72b4dd6176d178",
@@ -149,8 +148,10 @@
   },
   "active": "1af249dff1a9faa0",
   "lastOpenFiles": [
-    "assets/reflected ray.png",
+    "assets/microfacets.svg",
     "Ray Tracing.md",
+    "Absorption.md",
+    "assets/reflected ray.png",
     "Transformations.md",
     "assets/ray tracing.png",
     "Bullet Physics.md",
