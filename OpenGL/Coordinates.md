@@ -6,7 +6,7 @@ There are a total of 5 different coordinate systems that are of importance to us
 - Screen space
 
 To go from local space all the way to the screen a few transformations need to be applied:
-![|800](assets/coordinate%20systems.png)
+![|800](attachments/coordinate%20systems.png)
 1. Starting with the coordinates of the object and its vertices relative to itself.
 2. The next step is to transform the local coordinates to world-space coordinates.
 3. Next we transform the world coordinates to view-space coordinates according to the camera's perspective.

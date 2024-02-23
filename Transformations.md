@@ -12,7 +12,7 @@ $$\begin{pmatrix} a_x \\ a_y \\ a_z \end{pmatrix} \times \begin{pmatrix} b_x \\ 
 ## Matrix multiplication
 For matrix multiplication, the number of columns in the first matrix must be equal to the number of rows in the second matrix. The resulting matrix has the number of rows of the first and the number of columns of the second matrix.[^wiki] Also note: $A \cdot B \neq B \cdot A$.
 Treating the rows of the first matrix and the columns of the second matrix as vectors, the resulting matrix is the **dot product** of the corresponding vectors:
-![|300](assets/matrix%20multiplication.png)
+![|300](attachments/matrix%20multiplication.png)
 ## Transformations
 For an actual explanation see the videos on Khan Academy.[^khan]
 

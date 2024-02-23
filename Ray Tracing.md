@@ -1,5 +1,5 @@
 A ray tracer "shoots" out a ray from the camera through each pixel in the screen and out into the world, hitting surfaces that will give it its color:
-![|500](assets/ray%20tracing.png)
+![|500](attachments/ray%20tracing.png)
 ## Tracing Rays
 A ray has an origin and a direction and when given a parameter results in a point along that ray:
 $$P(t) = A + B \cdot t$$
@@ -79,9 +79,9 @@ To implement this, we reflect rays off surfaces and trace these to find the ligh
 The light a surface reflects depends on the incoming light and how that light is [absorbed](#Absorption), and how the material of the surface reflects the light.
 ### Diffuse Materials
 To simulate diffuse materials, we simulate the microfacet model[^microfacet]. The light is randomly bounced off the surface, according to how rough it is:
-![|400](assets/microfacets.svg)
+![|400](attachments/microfacets.svg)
 Light reflected off a diffuse surface has its direction randomized. To get the direction of the new ray, take a random point inside a unit sphere whose radius is tangent to the hit point/surface:
-![|300](assets/reflected%20ray.png)
+![|300](attachments/reflected%20ray.png)
 
 The bounced ray can be calculated as follows:
 ```cpp

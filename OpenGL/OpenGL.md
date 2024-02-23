@@ -5,7 +5,7 @@ OpenGL is basically a state machine. Some functions set the state and some use i
 GLFW (and GLUT and the like) is a helper library that makes some of the more tedious parts of OpenGL, such as opening a window easier.
 
 The graphics pipeline looks as follows, where the blue phases are [[Shaders|shaders]] we can control: 
-![graphics pipeline](assets/graphics%20pipeline.png)
+![graphics pipeline](attachments/graphics%20pipeline.png)
 
 [^intro]: Learn OpenGL [introduction](https://learnopengl.com/Introduction)
 [^glad]: Learn OpenGL section on [GLAD setup](https://learnopengl.com/Getting-started/Creating-a-window#:~:text=to%2Ddate%20library.-,Setting%20up%20GLAD,-GLAD%20is%20an), GLAD must be `#include`'d **before** the rest!
