@@ -12,12 +12,14 @@ To avoid noise like this, the rays can be send in random directions through the 
 Combining the subdivision and randomization fixes both drawbacks: **stratification**. It guarantees relatively uniform distribution of the pixels whilst avoiding interference.
 
 Anti-aliasing acknowledges that pixels are tiny squares, not points. The color of pixels should represent everything we can see through that square, thus sending multiple samples per pixel makes sense. Of course we cannot sample every existing point inside the pixel, but the randomization at least gives every location a chance.
+
 ## Distributed Rendering
 Soft shadows emerge when using area lighting; lights aren't really a single point in space. The same counts for reflections, which, in general, aren't perfectly sharp either.
 
 In the single-point light model, we send just a single shadow ray to check for occlusion, which results in hard shadows. Similarly, when sending just one perfectly reflected ray off surfaces, we get perfect reflections.
 
 The solution to both is **distributed raytracing**. Instead of *point sampling* distributed raytracing means *area sampling*; we send multiple rays to get a better result.
+
 ### Area lights
 When treating lights as a single point we get hard shadows, but area lights emit light from a larger area onto the same surface, resulting in soft shadows; umbra's and penumbra's. The soft part of the shadow is the result of the area light being only partly occluded, and only partly visible.
 
@@ -46,6 +48,7 @@ for (int i = 0; i < N; i++)
 }
 return 1.0f / N * sum;
 ```
+
 ### Accumulating
 By itself, the anti-aliasing as described above will result in noisy and jittery images. We can counteract this by simply taking more samples, but this increases render times too.
 

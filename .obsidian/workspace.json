@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4953f5a882e32aac",
+        "id": "18b80ab8aafbc83e",
         "type": "tabs",
         "children": [
           {
-            "id": "1af249dff1a9faa0",
+            "id": "620de6e00d4b9144",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ray Tracing.md",
+                "file": "Raytracing/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ray Tracing.md",
+                "file": "Raytracing/Core Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ray Tracing.md",
+                "file": "Raytracing/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ray Tracing.md"
+                "file": "Raytracing/Core Concepts.md"
               }
             }
           }
@@ -146,13 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1af249dff1a9faa0",
+  "active": "620de6e00d4b9144",
   "lastOpenFiles": [
-    "attachments/microfacets.svg",
+    "Optimization.md",
+    "Raytracing/Core Concepts.md",
+    "Raytracing/Stochastic Rendering.md",
     "Ray Tracing.md",
+    "Transformations.md",
+    "attachments/microfacets.svg",
     "Absorption.md",
     "attachments/reflected ray.png",
-    "Transformations.md",
     "attachments/ray tracing.png",
     "Bullet Physics.md",
     "OpenGL/Filtering.md",

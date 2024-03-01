@@ -1,7 +1,8 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "common"
+    "common",
+    "hide-attachments"
   ],
   "theme": "system",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",

@@ -1,8 +1,10 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./assets",
-  "userIgnoreFilters": null,
+  "attachmentFolderPath": "./attachments",
+  "userIgnoreFilters": [
+    "attachments/"
+  ],
   "defaultViewMode": "preview",
   "readableLineLength": true,
   "newLinkFormat": "relative",
