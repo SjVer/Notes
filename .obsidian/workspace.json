@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "620de6e00d4b9144",
+            "id": "c39d32ab3d55ae67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raytracing/Core Concepts.md",
+                "file": "Raytracing/Materials.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab72b4dd6176d178",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raytracing/Core Concepts.md",
+                "file": "Raytracing/Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raytracing/Core Concepts.md",
+                "file": "Raytracing/Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raytracing/Core Concepts.md"
+                "file": "Raytracing/Materials.md"
               }
             }
           }
@@ -146,11 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "620de6e00d4b9144",
+  "active": "c39d32ab3d55ae67",
   "lastOpenFiles": [
-    "Optimization.md",
-    "Raytracing/Core Concepts.md",
+    "Raytracing/attachments/bilinear sampling.png",
+    "Raytracing/Materials.md",
     "Raytracing/Stochastic Rendering.md",
+    "Raytracing/Core Concepts.md",
+    "Optimization.md",
     "Ray Tracing.md",
     "Transformations.md",
     "attachments/microfacets.svg",
@@ -177,9 +180,7 @@
     "OpenGL/attachments/vertex attributes 2.png",
     "OpenGL/attachments/matrix multiplication.png",
     "OpenGL/attachments/vertex attributes 2.png.opdownload",
-    "OpenGL/attachments/graphics pipeline.png",
     "2023-11-09.md",
-    "OpenGL/attachments/vertex array.png",
     "OpenGL/assets",
     "OpenGL"
   ]
