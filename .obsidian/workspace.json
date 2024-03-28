@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "56b25d46d8274eac",
+        "id": "95bb729036773f32",
         "type": "tabs",
         "children": [
           {
-            "id": "af3d349283fb94f7",
+            "id": "65230b14382a9067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raytracing/Materials.md",
-                "mode": "source",
+                "file": "Raytracing/Reprojection.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raytracing/Materials.md",
+                "file": "Raytracing/Reprojection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raytracing/Materials.md",
+                "file": "Raytracing/Reprojection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raytracing/Materials.md"
+                "file": "Raytracing/Reprojection.md"
               }
             }
           }
@@ -146,16 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3d349283fb94f7",
+  "active": "65230b14382a9067",
   "lastOpenFiles": [
-    "Raytracing/Stochastic Rendering.md",
-    "Raytracing/Core Concepts.md",
+    "Raytracing/attachments/pyramid reprojection.png",
+    "Raytracing/Reprojection.md",
+    "Raytracing/Filtering.md",
+    "Raytracing/Bounding Volume Hierarchy.md",
+    "Raytracing/attachments/bvh-split-naive.png",
+    "Raytracing/attachments/bvh.png",
+    "Raytracing/attachments/diamond search.jpg",
+    "Raytracing/attachments/diamond search.jpg.opdownload",
     "Raytracing/Materials.md",
+    "Raytracing/Core Concepts.md",
+    "Transformations.md",
+    "Raytracing/Stochastic Rendering.md",
     "Raytracing/Camera Effects.md",
     "Raytracing/attachments/bilinear sampling.png",
     "Optimization.md",
     "Ray Tracing.md",
-    "Transformations.md",
     "attachments/microfacets.svg",
     "Absorption.md",
     "attachments/reflected ray.png",
@@ -175,10 +183,7 @@
     "attachments/Untitled",
     "attachments/matrix multiplication.png",
     "assets",
-    "matrix multiplication.png",
     "OpenGL/Maths.md",
-    "OpenGL/attachments/vertex attributes 2.png",
-    "OpenGL/attachments/matrix multiplication.png",
     "OpenGL/attachments/vertex attributes 2.png.opdownload",
     "2023-11-09.md",
     "OpenGL/assets",
