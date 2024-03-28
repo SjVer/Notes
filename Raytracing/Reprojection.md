@@ -42,16 +42,22 @@ Sometimes we cannot reproject, for example, when something has moved. When this 
 
 The final algorithm would look something like this: 
 ```python
-Vnew = get_sample(uv)
+ray = get_ray(uv)
+intersection = trace(ray)
+Vnew = get_sample(...)
 
-old_uv = reproject(uv, camera_pos, old_camera_pos)
-if old_uv in screen:
-	old_intersection = prev_frame_intersection_buff[old_uv]
-	delta = old_intersection - curr_intersection
+# find the UV according to the old camera
+reproj_uv = reproject(old_camera_pos, intersection)
+if reproj_uv in screen:
+	reproj_ray = get_ray(reproj_uv)
+	reproj_intersection = trace(reproj_ray)
 
+	# intersection and reproj_intersection will be close,
+	# but not identical because of the pixels' size
+	delta = intersection - reproj_intersection
 	if delta < REPROJ_DELTA:
-		# we have a valid previous sample
-		Vprev = old_frame_sample_buff[old_uv]
+		# we can use a previous sample
+		Vprev = history_sample_buffer[reproj_uv]
 		return ALPHA * Vprev + (1 - ALPHA) * Vnew
 	
 # we did not find a valid previous sample
