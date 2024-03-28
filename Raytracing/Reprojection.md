@@ -32,10 +32,28 @@ We can now calculate the position in both the current, and the previous frame.
 
 Note that this method does not work with mirrors, panini projection or a non-pinhole camera.
 
-## Resolving
+## Temporal Accumulation
 When reprojection, we assume older data is more likely to be accurate. Hence, we can ditch the accumulator entirely, and use a _running average_:
 $$V_{avg} = \alpha \space V_{prev} + (1 - \alpha) V_{new}$$
 
 A smaller $\alpha$ supresses "history", for example, when we know something has changed. A bigger $\alpha$ effectively lets us blend more frames, reducing noise. An $\alpha$ of $0.9$ is typical.
 
 Sometimes we cannot reproject, for example, when something has moved. When this happens, we lower $\alpha$ to $0$. We can also do this if the previous sample was obviously wrong (very different).
+
+The final algorithm would look something like this: 
+```python
+Vnew = get_sample(uv)
+
+old_uv = reproject(uv, camera_pos, old_camera_pos)
+if old_uv in screen:
+	old_intersection = prev_frame_intersection_buff[old_uv]
+	delta = old_intersection - curr_intersection
+
+	if delta < REPROJ_DELTA:
+		# we have a valid previous sample
+		Vprev = old_frame_sample_buff[old_uv]
+		return ALPHA * Vprev + (1 - ALPHA) * Vnew
+	
+# we did not find a valid previous sample
+return Vnew
+```
