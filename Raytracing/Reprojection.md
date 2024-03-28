@@ -46,8 +46,10 @@ ray = get_ray(uv)
 intersection = trace(ray)
 Vnew = get_sample(...)
 
+...
+
 # find the UV according to the old camera
-reproj_uv = reproject(old_camera_pos, intersection)
+reproj_uv = reproject(old_camera_trans, camera_trans, intersection)
 if reproj_uv in screen:
 	reproj_ray = get_ray(reproj_uv)
 	reproj_intersection = trace(reproj_ray)
