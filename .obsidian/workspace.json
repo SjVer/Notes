@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65230b14382a9067",
+            "id": "2731d27d6a013e6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Raytracing/Reprojection.md",
+                "file": "Procedural Content Generation/PCG Primer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ab72b4dd6176d178",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raytracing/Reprojection.md",
+                "file": "Procedural Content Generation/PCG Primer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raytracing/Reprojection.md",
+                "file": "Procedural Content Generation/PCG Primer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raytracing/Reprojection.md"
+                "file": "Procedural Content Generation/PCG Primer.md"
               }
             }
           }
@@ -147,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65230b14382a9067",
+  "active": "2731d27d6a013e6c",
   "lastOpenFiles": [
-    "Raytracing/attachments/pyramid reprojection.png",
+    "Procedural Content Generation/attachments/Pasted image 20240514142752.png",
+    "Procedural Content Generation/attachments/PCG forest.png",
+    "Procedural Content Generation/PCG Primer.md",
+    "Procedural Content Generation/attachments",
+    "Transformations.md",
+    "Procedural Content Generation",
+    "Raytracing/Stochastic Rendering.md",
     "Raytracing/Reprojection.md",
+    "Raytracing/attachments/pyramid reprojection.png",
     "Raytracing/Filtering.md",
     "Raytracing/Bounding Volume Hierarchy.md",
     "Raytracing/attachments/bvh-split-naive.png",
@@ -159,8 +165,6 @@
     "Raytracing/attachments/diamond search.jpg.opdownload",
     "Raytracing/Materials.md",
     "Raytracing/Core Concepts.md",
-    "Transformations.md",
-    "Raytracing/Stochastic Rendering.md",
     "Raytracing/Camera Effects.md",
     "Raytracing/attachments/bilinear sampling.png",
     "Optimization.md",
@@ -176,13 +180,11 @@
     "Multithreading (on Linux).md",
     "OpenGL/Shaders.md",
     "OpenGL/OpenGL.md",
-    "Untitled",
     "OpenGL/Basic Lighting.md",
     "scratchpadgames.net/forums",
     "scratchpadgames.net",
     "OpenGL/attachments/coordinate systems.png",
     "attachments/Untitled",
-    "attachments/matrix multiplication.png",
     "assets",
     "OpenGL/Maths.md",
     "OpenGL/attachments/vertex attributes 2.png.opdownload",
