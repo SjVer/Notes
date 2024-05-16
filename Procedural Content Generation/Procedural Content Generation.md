@@ -36,7 +36,10 @@ A common use of SA is in tree generation:
 The complexity of content generated using SA is of course only limited by the formulas and patterns that can be thought of, but in the context of content generation for games, the core of the technique has not seen much development recently.
 
 ### Modelling and Simulation of Complex Systems
+(TODO)
 
+### Artificial Intelligence
+(TODO)
 
 
 [^wiki]: Wikimedia Foundation. (2024, May 11). _Procedural generation_. Wikipedia. https://en.wikipedia.org/wiki/Procedural_generation
