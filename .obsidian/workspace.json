@@ -4,9 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "0a1d5d700bcb3f86",
+        "id": "b62cfc4a020c4b03",
         "type": "tabs",
-        "dimension": 47.83653846153847,
+        "dimension": 46.14820249449743,
         "children": [
           {
             "id": "f7e30f01e73b9f99",
@@ -23,42 +23,21 @@
         ]
       },
       {
-        "id": "b62cfc4a020c4b03",
+        "id": "9c2e883d91aa4a98",
         "type": "tabs",
-        "dimension": 52.16346153846154,
+        "dimension": 53.85179750550256,
         "children": [
           {
-            "id": "6b9f34e3216f7c80",
+            "id": "5c205828606451f8",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf"
-              }
-            }
-          },
-          {
-            "id": "085b551a2d90c0ab",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Procedural Content Generation/Sources/Procedural content generation for games - A survey.pdf"
-              }
-            }
-          },
-          {
-            "id": "72e0f11600322397",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Procedural Content Generation/Sources/Procedural content generation for games - A survey - Appendix.pdf"
+                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +167,12 @@
   },
   "active": "f7e30f01e73b9f99",
   "lastOpenFiles": [
-    "Procedural Content Generation/Sources/Procedural content generation for games - A survey - Appendix.pdf",
+    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
     "Procedural Content Generation/Procedural Content Generation.md",
+    "Procedural Content Generation/Untitled.md",
     "Procedural Content Generation/Sources/Procedural content generation for games - A survey.pdf",
     "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf",
+    "Procedural Content Generation/Sources/Procedural content generation for games - A survey - Appendix.pdf",
     "Procedural Content Generation/attachments/boids.png",
     "Procedural Content Generation/attachments/Pasted image 20240516161233.png",
     "Procedural Content Generation/attachments/Pasted image 20240516161231.png",
@@ -199,7 +180,6 @@
     "Procedural Content Generation/Modern Examples.md",
     "Procedural Content Generation/attachments/shape grammar.png",
     "Procedural Content Generation/attachments/terrain.png",
-    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
     "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf.crdownload",
     "Procedural Content Generation/Sources/Procedural Content Generation in the Game Industry.pdf",
     "Procedural Content Generation/Sources/Procedural Content Generation in the Game Industry.pdf.crdownload",

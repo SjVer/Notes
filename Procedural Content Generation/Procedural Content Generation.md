@@ -54,8 +54,18 @@ One of the approaches to AI  in PCG is _Genetic Algorithms_; These algorithms mi
 
 Another common approach is the modelling of _Neural Networks_; This approach uses an artificial neural network that tries to match inputs with outputs. It has the ability to learn from patterns to later match similar patterns. Again, a fitness function is used to determine the success of a match. Though it is well suited for, for example, recognizing handwriting or drawings, it is impractical for complex game content.
 
+## Actionable Steps
+Though much can already be done using developed techniques, there are many _actionable steps_ left to take. 
+
+J. Togelius (et al.) has kindly provided a list of example projects for "anyone wishing to contribute to advancing the state of the art of procedural content generation":[^steps]
+
+- The generation of complete, very simple games: Targeting games that would run on an older console like the _Atari 2600_, this would be a first step towards generating complete AAA games procedurally. The restrictions of the target console serves to restrict the pool of games to take train on, as well as simplifying the generation process.
+- Procedural animation of procedurally generated creatures: This would involve animation in the PCG process. The creature creation in _Spore_ is similar, but is user-controlled and places restrictions on the creature creation for compatibility with existing animations.
+- Quest-populated map generation; Rather than generating a map separately, and populating it with quests, this technique would combine the two in order to make the maps interesting and narrative-driven, rather than having to conform the quests to an existing map.
+- Generation of interesting 2D platformer levels; Though the procedural generation of 2D platformer levels for e.g. _Super Mario Bros_ is an established technology, these levels generally lack a sense of progression, narrative or high-level structure, making them boring or uninteresting. A level generator that does include these elements is yet to be devised.
 
 [^wiki]: Wikimedia Foundation. (2024, May 11). _Procedural generation_. Wikipedia. https://en.wikipedia.org/wiki/Procedural_generation
 [^survey]: Mark Hendrikx, Sebastiaan Meijer, Joeri Van Der Velden, and Alexandru Iosup. 2013. Procedural content generation for games: A survey. ACM Trans. Multimedia Comput. Commun. Appl. 9, 1, Article 1 (February 2013), 22 pages. https://doi.org/10.1145/2422956.2422957
 [^gg-ml]: J. Gutierrez and J. Schrum, "Generative Adversarial Network Rooms in Generative Graph Grammar Dungeons for The Legend of Zelda," _2020 IEEE Congress on Evolutionary Computation (CEC)_, Glasgow, UK, 2020, pp. 1-8, doi: 10.1109/CEC48606.2020.9185631.
 [^lague]: https://www.youtube.com/watch?v=bqtqltqcQhw
+[^steps]: Togelius, J. & Champandard, A.J. & Lanzi, Pier Luca & Mateas, M. & Paiva, A. & Preuss, Mike & Stanley, K.O.. (2013). Procedural content generation: goals, challenges and actionable steps. Dagstuhl Follow-Ups. 6. 61-75. 
