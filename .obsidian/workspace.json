@@ -6,7 +6,7 @@
       {
         "id": "b62cfc4a020c4b03",
         "type": "tabs",
-        "dimension": 46.14820249449743,
+        "dimension": 57.63221153846154,
         "children": [
           {
             "id": "f7e30f01e73b9f99",
@@ -25,7 +25,7 @@
       {
         "id": "9c2e883d91aa4a98",
         "type": "tabs",
-        "dimension": 53.85179750550256,
+        "dimension": 42.36778846153847,
         "children": [
           {
             "id": "5c205828606451f8",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Procedural Content Generation/Procedural Content Generation.md",
+                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Procedural Content Generation/Procedural Content Generation.md",
+                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Procedural Content Generation/Procedural Content Generation.md"
+                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf"
               }
             }
           }
@@ -165,10 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7e30f01e73b9f99",
+  "active": "5c205828606451f8",
   "lastOpenFiles": [
-    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
     "Procedural Content Generation/Procedural Content Generation.md",
+    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
     "Procedural Content Generation/Untitled.md",
     "Procedural Content Generation/Sources/Procedural content generation for games - A survey.pdf",
     "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf",
