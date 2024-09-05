@@ -6,7 +6,6 @@
       {
         "id": "b62cfc4a020c4b03",
         "type": "tabs",
-        "dimension": 57.63221153846154,
         "children": [
           {
             "id": "f7e30f01e73b9f99",
@@ -14,30 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Procedural Content Generation/Procedural Content Generation.md",
+                "file": "Bullet Physics.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "9c2e883d91aa4a98",
-        "type": "tabs",
-        "dimension": 42.36778846153847,
-        "children": [
+          },
           {
-            "id": "5c205828606451f8",
+            "id": "f35ca238c3d1d504",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf"
+                "file": "Entity Component System.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ab72b4dd6176d178",
@@ -104,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
+                "file": "Entity Component System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
+                "file": "Entity Component System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf"
+                "file": "Entity Component System.md"
               }
             }
           }
@@ -165,11 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c205828606451f8",
+  "active": "f35ca238c3d1d504",
   "lastOpenFiles": [
+    "Entity Component System.md",
+    "Bullet Physics.md",
+    "Untitled",
+    "OpenGL/Coordinates.md",
+    "Multithreading (on Linux).md",
     "Procedural Content Generation/Procedural Content Generation.md",
-    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
+    "Procedural Content Generation/Modern Examples.md",
     "Procedural Content Generation/Untitled.md",
+    "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf",
     "Procedural Content Generation/Sources/Procedural content generation for games - A survey.pdf",
     "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf",
     "Procedural Content Generation/Sources/Procedural content generation for games - A survey - Appendix.pdf",
@@ -177,7 +177,6 @@
     "Procedural Content Generation/attachments/Pasted image 20240516161233.png",
     "Procedural Content Generation/attachments/Pasted image 20240516161231.png",
     "Procedural Content Generation/attachments/tree generation.png",
-    "Procedural Content Generation/Modern Examples.md",
     "Procedural Content Generation/attachments/shape grammar.png",
     "Procedural Content Generation/attachments/terrain.png",
     "Procedural Content Generation/Sources/A Survey of Procedural Content Generation Techniques Suitable to Game Development.pdf.crdownload",
@@ -185,7 +184,6 @@
     "Procedural Content Generation/Sources/Procedural Content Generation in the Game Industry.pdf.crdownload",
     "Procedural Content Generation/Sources/Procedural Content Generation - Goals, Challenges and Actionable Steps.pdf.crdownload",
     "Procedural Content Generation/Sources/What is Procedural Content Generation - Mario on the borderline.pdf",
-    "Procedural Content Generation/Sources/What is Procedural Content Generation - Mario on the borderline.pdf.crdownload",
     "Procedural Content Generation/attachments/elite dangerous.png",
     "Procedural Content Generation/attachments/Pasted image 20240514145337.png",
     "Procedural Content Generation/attachments/star citizen.png",
@@ -201,11 +199,8 @@
     "Optimization.md",
     "Ray Tracing.md",
     "Absorption.md",
-    "Bullet Physics.md",
     "OpenGL/Filtering.md",
     "OpenGL/Vertices.md",
-    "OpenGL/Coordinates.md",
-    "Multithreading (on Linux).md",
     "OpenGL/Shaders.md",
     "OpenGL/OpenGL.md",
     "OpenGL/Basic Lighting.md",
